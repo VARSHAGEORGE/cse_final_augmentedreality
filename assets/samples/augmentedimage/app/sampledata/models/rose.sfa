@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'mat',
+      parameters: [
+        {
+          baseColor: 'rose',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.093865000000000004,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/rose.obj',
+    name: 'rose',
+    recenter: 'root',
+    scale: 0.05,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/rose.png',
+      name: 'rose',
+      pipeline_name: 'Videos/rose.png',
+    },
+  ],
+  version: '0.54:2',
+}
